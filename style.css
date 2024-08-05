@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'AldoSemiBold';
+    src: url('Aldo-SemiBold.ttf') format('truetype');
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    flex-direction: column;
+}
+
+main {
+    border: 10px solid;
+    border-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100%25" height="100%25" viewBox="0 0 100 100" preserveAspectRatio="none"%3E%3Cpolygon fill="black" points="0,100 100,0 100,100" /%3E%3Cpolygon fill="yellow" points="0,0 100,100 0,100" /%3E%3C/svg%3E') 30 stretch;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+h1 {
+    font-family: 'AldoSemiBold', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 64px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+}
